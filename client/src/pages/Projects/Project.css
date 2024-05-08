@@ -1,0 +1,82 @@
+.row{
+   margin-top: 3%;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 30px;
+
+}
+.project-card{
+  margin-left: 5%;
+}
+.project-display{
+    width: 300px;
+    height: 500px;
+   padding: 0;
+   margin-left: 4%;
+}
+.project-title{
+    margin-top: 20px;
+    text-align: center;
+    color:  #c67700;
+    font-size: 2.4rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+ }
+ .card_image{
+    padding: 0;
+    margin: 0;
+    width: 300px;
+    height: 200px;
+ }
+ 
+ .card-title{
+   text-decoration: none;
+   text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 1.7rem;
+   font-weight: 700;
+   color: #c67700;
+
+ }
+ .card-text{
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 1.3rem;
+   font-weight: 500;
+   text-align: center;
+
+ }
+ .card-body{
+   position: relative;
+ }
+ .web-btn{
+   width: 100px;
+   height: 40px;
+   text-align: center;
+   color: black;
+   position:absolute;
+   left: 30%;
+   top: 80%;
+   background-color: #34bff2;
+
+ }
+ .web-btn:hover{
+   background-color: white;
+   color:#34bff2 ;
+   transition: 1s ease-out;
+   cursor: pointer;
+ }
+ @media (max-width:600px) {
+  .project-card{
+    margin: 0;
+    padding: 0;
+  }
+  .project-title{
+    margin-left: 0px;
+    padding-left: 10px;
+  }
+ }
+
+ 

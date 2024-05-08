@@ -1,0 +1,40 @@
+.mobile-nav{
+    overflow: hidden;
+    position: fixed;
+    width: 600px;
+   height: auto;
+    z-index: 1;
+
+}
+.mobile-nav-header{
+    width: 100%;
+    background-color: black;
+    padding: 5px;
+
+}
+.nav-icon{
+    color: white;
+    cursor: pointer;
+}
+.nav-title{
+    padding-left: 20px;
+    color: #e1ad29;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.mobile-nav-menu .nav-items{
+    width: 300px;
+    background-color: black;
+    float: left;
+    padding: 10px;
+    height: 360px;
+
+}
+
+
+@media (min-width:600px) {
+    .mobile-nav{
+        display: none;
+    } 
+}

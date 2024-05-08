@@ -1,0 +1,25 @@
+.profile-pic img{
+ border-radius: 90px;
+ width: 200px;
+ height: 200px;
+ display: flex;
+ vertical-align: middle;
+ margin: 0 auto;
+ margin-top: 30px;
+}
+.nav-item{
+    color: white;
+    margin-top: 27px;
+    text-align: center;
+}
+.nav-link{
+    display: flex;
+   gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.nav-link:hover{
+    color: orange;
+}
