@@ -16,9 +16,7 @@ app.use(express.json());
 
  app.use(express.urlencoded({extended:true}));
  app.use(express.static(path.join(__dirname,'./client/dist')));
- app.get('*',function(req,res){
-  res.sendFile(path.join(__dirname,'./index.html'));
- })
+ 
 // mongoose connection
 const DB=process.env.DB;
 mongoose.connect(`${DB}portfolio?retryWrites=true&w=majority&appName=Cluster0`, {
