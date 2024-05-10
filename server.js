@@ -15,10 +15,8 @@ const app=express();
 app.use(express.json());
 
  app.use(express.urlencoded({extended:true}));
- app.use(express.static(path.join(__dirname,'client', 'dist')));
- app.get('*', function(req, res) {
-  res.sendFile(path.join(__dirname, 'client', 'dist', 'index.html'));
-});
+ app.use(express.static(path.join(__dirname,'./client/dist')));
+ path.join(process.cwd(),'client','dist','index.html');
  
 // mongoose connection
 const DB=process.env.DB;
