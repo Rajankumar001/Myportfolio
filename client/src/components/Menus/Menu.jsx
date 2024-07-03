@@ -1,7 +1,7 @@
 import React from 'react'
-import profile from '../../assets/images/Rajan_imag.jpg';
+import profile from '../../assets/images/Rajan_imag-removebg-preview.png';
 import './Menu.css';
-import { FcHome,FcAbout,FcPortraitMode,FcReading } from "react-icons/fc";
+import { FcHome,FcAbout,FcReading } from "react-icons/fc";
 import { CgWebsite } from "react-icons/cg";
 import { GoProject } from "react-icons/go";
 import { Link } from 'react-scroll';

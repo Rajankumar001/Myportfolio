@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
  .about-section{
  margin-top: 5%;
  margin-left: 5%;
@@ -21,6 +22,25 @@
    height: 100%;
    width: 100%;
  }
+ .card-body-container{
+  background-image: url("../../assets/images/blur_images.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 10px 10px 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  padding: 20px;
+  height: 300px !important;
+  text-wrap: wrap;
+  border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+
+ }
+ 
+ .card-about-text {
+  
+  height: 320px;
+ }
  /* responsive */
  @media (max-width:600px) {
    .about-section{
@@ -36,7 +56,17 @@
     width: 600px;
   }
   .card-about-text {
-    width: 600px;
-  padding: 20px;
+    width: 480px;
+    height: 400px;
+    margin-right: 20px !important;
+    text-wrap: wrap;
+
   }
+  .card-body-container{
+    
+   width: 580px;
+   height: 400px;
+   text-wrap: wrap;
+   margin-right: 20px !important;
+   }
  }
