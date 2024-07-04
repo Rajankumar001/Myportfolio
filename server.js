@@ -4,6 +4,8 @@ const mongoose=require('mongoose');
 const dotenv=require('dotenv');
 const routes=require('./routes/routes');
 const path=require('path');
+const cors = require('cors');
+ 
 
 
 // dotenv configuration
@@ -13,6 +15,18 @@ const app=express();
 
 // middleware
 app.use(express.json());
+app.use(cors(
+  {
+    origin:"https://chaudhary-portfolio.netlify.app/",
+    optionsSuccessStatus: 200
+  }
+ ));
+ app.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', 'https://chaudhary-portfolio.netlify.app/');
+  res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
+  res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+  next();
+});
 
  app.use(express.urlencoded({extended:true}));
  app.use(express.static(path.join(__dirname,'./client/dist')));
