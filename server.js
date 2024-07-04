@@ -20,10 +20,7 @@ app.use(express.json());
  
 // mongoose connection
 const DB=process.env.DB;
-mongoose.connect(`${DB}portfolio?retryWrites=true&w=majority&appName=Cluster0`, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-}).then(()=>console.log("mongodb connected....."))
+mongoose.connect(`${DB}portfolio?retryWrites=true&w=majority&appName=Cluster0`).then(()=>console.log("mongodb connected....."))
 .catch((err)=>{
   console.log("error caught ",err);
 });
