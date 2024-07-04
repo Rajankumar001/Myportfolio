@@ -14,7 +14,7 @@ const Contact = () => {
     }
     try {
       console.log("its working");
-        const res = await Axios.post('http://localhost:8080/portfolio/sendEmail', { name, email, message }).then((res)=>{
+        const res = await Axios.post('https://myportfolio-wby5.onrender.com/portfolio/sendEmail', { name, email, message }).then((res)=>{
           console.log("message saved..",res.data);
         }).catch((e)=>{
           console.log(
