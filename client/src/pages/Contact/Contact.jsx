@@ -6,7 +6,7 @@ const Contact = () => {
   const [name, setName]=useState(" ");
   const [email ,setEmail]=useState(" ");
   const [message,setMessage]=useState(" ");
-  const handleform = async (e) => {
+  const handleform = async (e,res) => {
     e.preventDefault();
     if (!name || !email || !message) {
         console.log("Please fill all required fields");
@@ -14,13 +14,12 @@ const Contact = () => {
     }
     try {
       console.log("its working");
-        const res = await Axios.post('https://myportfolio-wby5.onrender.com/portfolio/sendEmail', { name, email, message }).then((res)=>{
-          console.log("message saved..",res.data);
-        }).catch((e)=>{
-          console.log(
-            "error caught",e
-          )
-        })
+        const result = await Axios.post('http://localhost:8080/portfolio/sendEmail', { name, email, message })
+        console.log("Data sent:", result.config.data); // Accessing sent data
+
+        console.log("Message saved:", result.data.message); // Accessing response data
+        console.log(" saved user :", result.data.sendUser);
+  
         console.log('its worked');
         setName("");
         setEmail("");

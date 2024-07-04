@@ -1,7 +1,7 @@
 {
   "name": "client",
   "private": true,
-  "proxy":"https://myportfolio-wby5.onrender.com",
+  "proxy":"http://localhost:8080",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
