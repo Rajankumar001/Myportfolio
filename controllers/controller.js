@@ -3,22 +3,29 @@ const portfolio = require('../db/Schema');
 const sendEmail = async (req, res) => {
     try {
         const { name, email, message } = req.body;
-
+        console.log("Received request body:", req.body);
         const user = new portfolio({
-            name: name,
-            email: email,
-            message: message,
-        });
-
+            name,
+            email,
+            message,
+        })
         const sendUser = await user.save();
-        res.send({ message: 'Message saved successfully', sendUser });
+        res.status(200).send({ 
+            message: 'Message saved successfully',
+             sendUser });
+        console.log("success...")
     } catch (err) {
         console.log("Error caught:", err);
-        res.send('Internal Server Error');
+        res.status(500).send({ message:'Internal Major server error'});
     }
 }
 const getEmail=async(req,res)=>{
      const result=await portfolio.find({});
-     res.send("message got successfully");
+     console.log(result);
+     res.status(201).send({
+        success:true,
+        message:"got message successfully",
+        result
+     })
 }
 module.exports = { sendEmail,getEmail };
