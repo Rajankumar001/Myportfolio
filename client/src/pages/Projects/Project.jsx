@@ -1,7 +1,7 @@
 import React from 'react';
 import sportify from "../../assets/images/sportify_web.png";
 import pinkaware from "../../assets/images/pinkaware_web.png";
-import Todoapp from "../../assets/images/Project_3.png"
+import foodapp from "../../assets/images/food_app.png"
 import './Project.css';
 import Fade from 'react-reveal/Fade';
 const project = () => {
@@ -28,11 +28,11 @@ const project = () => {
   </div>
 </div>
 <div class="card project-display">
-  <img src={Todoapp} class="card-img-top card_image todo_image" alt="..."/>
+  <img src={foodapp} class="card-img-top card_image todo_image" alt="..."/>
   <div class="card-body">
-    <h5 class="card-title">Todoapp</h5>
-    <p class="card-text">This Web portal is designed by the help of fronted and backend ,Here you can add,update and Delete Item according to your choice</p>
-    <a href="#" class="btn btn-primary web-btn">View</a>
+    <h5 class="card-title">Hungry Crowd</h5>
+    <p class="card-text">At Hungry Crowd, we bring you the finest selection of sweets and snacks, high-quality treats that remind you of home.</p>
+    <a href="https://food-app-sooty-seven.vercel.app/" class="btn btn-primary web-btn">view</a>
   </div>
 </div>
 </div>
