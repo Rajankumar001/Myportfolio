@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './Contact.css';
-import contact_image from '../../assets/images/contact_img.jpg';
+import contact_image from '../../assets/images/contact_img-removebg-preview.png';
 import Axios from 'axios';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';

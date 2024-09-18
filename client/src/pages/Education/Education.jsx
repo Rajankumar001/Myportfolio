@@ -22,7 +22,7 @@ const Education = () => {
   >
     <h3 className="vertical-timeline-element-title">Secondary School (CBSE) </h3>
     <h4 className="vertical-timeline-element-subtitle">Grade: 86%</h4>
-    <p>
+    <p className='vertical-timeline-element-para'>
      SCHOOL:SURYA PUBLIC SCHOOL ,NANGLOI-DELHI
     </p>
   </VerticalTimelineElement>
@@ -36,7 +36,7 @@ const Education = () => {
   >
     <h3 className="vertical-timeline-element-title"> Senior Secondary School (CBSE) </h3>
     <h4 className="vertical-timeline-element-subtitle">Grade: 91.8%</h4>
-    <p>
+    <p className='vertical-timeline-element-para'>
      SCHOOL:D.A.V PUBLIC SCHOOL ,DARBHANGA-BIHAR
     </p>
   </VerticalTimelineElement>
@@ -50,8 +50,8 @@ const Education = () => {
   >
     <h3 className="vertical-timeline-element-title">Graduation </h3>
     <h4 className="vertical-timeline-element-subtitle">SCGPA: 8.67</h4>
-    <p>
-     COLLEGE: MAHARAJA SURAJMAL INSTITITUE OF TECHNOLOGY ,DELHI
+    <p className='vertical-timeline-element-para'>
+     COLLEGE: MAHARAJA SURAJMAL INSTITUTE OF TECHNOLOGY ,DELHI
     </p>
   </VerticalTimelineElement>
       </VerticalTimeline>

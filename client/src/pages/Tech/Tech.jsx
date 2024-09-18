@@ -6,7 +6,7 @@ const Tech = () => {
   return (
     <>
     <div className="container-lg tech-section" id='Tech-stack'>
-      <h2 className='Tech-title'>TECH SATCK</h2>
+      <h2 className='Tech-title'>TECH STACK</h2>
       <Fade left>
     <div className="row">
   {

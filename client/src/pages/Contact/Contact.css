@@ -25,6 +25,9 @@
     flex-direction: column;
     gap: 10px;
 }
+.form-control{
+    border: 2px solid rgb(131, 208, 238);
+}
 .form-label{
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.4rem;

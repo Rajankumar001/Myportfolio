@@ -7,7 +7,7 @@ import Fade from 'react-reveal/Fade';
 const project = () => {
   return (
     <>
-    <Fade left>
+    <Fade left duration ={1500}> 
       <div className="container-lg project-card" id='project'>
         <h2 className='project-title'>TOP 3 RECENT PROJECT</h2>
         <div className="row">

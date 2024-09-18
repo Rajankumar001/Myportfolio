@@ -16,7 +16,7 @@ const Layout = () => {
           
              <p onClick={handleToggle}>
            {
-            toggle?(<AiOutlineDoubleRight size={40}/> ):(<AiOutlineDoubleLeft size={40}/>)
+            toggle?(<AiOutlineDoubleLeft size={40}/> ):(<AiOutlineDoubleRight size={40}/>)
            }
              </p>
             

@@ -80,7 +80,7 @@ const Menu = ({toggle}) => {
   <div className="nav-item">
   <div className="nav-link">
   <Link to='Home'>
-  <FcHome/>
+  <FcHome className='icon-size'/>
   </Link>
    </div>
   </div>
@@ -88,7 +88,7 @@ const Menu = ({toggle}) => {
   <div className="nav-link">
   
    <Link to='About'>
-    <FcAbout/>
+    <FcAbout className='icon-size'/>
    </Link>
    </div>
   </div>
@@ -97,7 +97,7 @@ const Menu = ({toggle}) => {
   <div className="nav-link">
   
   <Link to='Tech-stack'>
-  <CgWebsite/>
+  <CgWebsite className='icon-size'/>
   </Link>
    </div>
   </div>
@@ -105,7 +105,7 @@ const Menu = ({toggle}) => {
   <div className="nav-link">
  
   <Link to='Education'> 
-  <FcReading/>
+  <FcReading className='icon-size'/>
   </Link>
    </div>
   </div>
@@ -118,7 +118,7 @@ const Menu = ({toggle}) => {
   <div className="nav-item">
   <div className="nav-link">
   <Link to='contact'>
-  <IoIosContact/>
+  <IoIosContact className='icon-size'/>
   </Link>
    </div>
   </div>
