@@ -7,20 +7,17 @@ const About = () => {
   return (
     <>
    <div className="container-lg about-section" id='About'>
-   <div class="row about-container">
+   <div className="row about-container">
    
-    <div class="col-md-4 about-image">
-      <img src={image} class="img-fluid rounded-start image-pic " alt="..."/>
+    <div className="col-md-4 about-image">
+      <img src={image} className="img-fluid rounded-start image-pic " alt="..."/>
     </div>
     
-    <div class="col-md-8">
-      <div class="card-body-container">
-        <h5 class="card-title">About Me</h5>
-        <p class="card-about-text "> Hi,My self Rajan kumar chaudhary, I belong from bihar (Darbhanga) .I did my schooling from surya public school Nangloi-Delhi 
-        with grade of 86% and completed my 12th from D.A.V public school Darbhanga (Bihar).I am competitive and positive person
-        who have long and successful career in this industry and i also participated multiple hackathon that I got 
-        lot of experience from there . Experience of time management,experience of Team work and experience of problem solving
-        .
+    <div className="col-md-8">
+      <div className="card-body-container">
+        <h5 className="card-title">About Me</h5>
+        <p className="card-about-text "> Hi, I’m Rajan Kumar Chaudhary from Darbhanga, Bihar. I completed my schooling at Surya Public School, Nangloi-Delhi, with an impressive grade of 86%, followed by my 12th from D.A.V. Public School, Darbhanga. I am a competitive and positive individual, driven to build a long and successful career in the tech industry.
+        I have actively participated in several hackathons, where I gained valuable experience in time management, teamwork, and problem-solving. These experiences have shaped my ability to work efficiently under pressure and collaborate effectively in teams, skills that I aim to carry forward in my professional journey.
 </p>
        
       </div>

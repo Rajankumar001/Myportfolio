@@ -47,6 +47,7 @@
  @media (max-width:600px) {
    .about-section{
    margin: 0;
+   height: 760px;
     padding-right: 15px;
    }
   
@@ -58,15 +59,18 @@
     width: 600px;
   }
   .card-about-text {
-    width: 480px;
-    height: 400px;
+    width: 550px;
+    height: 450px;
     margin-right: 20px !important;
     text-wrap: wrap;
 
   }
+  .col-md-8{
+    height: 450px;
+  }
   .card-body-container{  
    width: 580px;
-   height: 400px;
+   height: 450px !important;
    text-wrap: wrap;
    margin-right: 20px !important;
    }

@@ -32,30 +32,7 @@ const Contact = () => {
   const [name, setName]=useState(" ");
   const [email ,setEmail]=useState(" ");
   const [message,setMessage]=useState(" ");
-//   const handleform = async (e,res) => {
-//     e.preventDefault();
-//     if (!name || !email || !message) {
-//         console.log("Please fill all required fields");
-//         return;
-//     }
-//     try {
-//       console.log("its working");
-//         const result = await Axios.post('https://myportfolio-7.onrender.com/portfolio/sendEmail', { name, email, message })
-//         console.log("Data sent:", result.config.data); // Accessing sent data
 
-//         console.log("Message saved:", result.data.message); // Accessing response data
-//         console.log(" saved user :", result.data.sendUser);
-  
-//         console.log('its worked');
-//         setName("");
-//         setEmail("");
-//         setMessage("");
-//         notify();
-//       }
-//         catch (error) {
-//         console.log("Error caught:", error);
-//     }
-// }
 
   
   return (
