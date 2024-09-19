@@ -13,11 +13,11 @@ const Contact = () => {
 
     emailjs
     .sendForm(
-      'service_vinhdp2',
-      'template_63lwf09',
+     'service_vinhdp2',
+     'template_63lwf09',
       form.current,
-      'xADnWiz2jvg8o-vN_'
-    )
+      '1NUZ3bk3UGBv6aPUr',
+      )
     .then(
       (result) => {
         console.log(result.text);
