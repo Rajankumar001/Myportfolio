@@ -18,7 +18,7 @@ const Home = () => {
   }}
 /></h1>
 <div className="home-buttons">
-<button className='btn btn-hire'>Hire Me</button>
+<a className='btn btn-hire' href='/contact'>Contact</a>
 <a  className="btn btn-resume"href={pdf} download='Rajan_resume.pdf'>Resume</a>
 </div>
 

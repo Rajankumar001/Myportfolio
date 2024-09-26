@@ -32,7 +32,7 @@ const project = () => {
   <div class="card-body">
     <h5 class="card-title">Hungry Crowd</h5>
     <p class="card-text">At Hungry Crowd, we bring you the finest selection of sweets and snacks, high-quality treats that remind you of home.</p>
-    <a href="https://food-app-sooty-seven.vercel.app/" class="btn btn-primary web-btn">view</a>
+    <a href="https://food-app-wine-one.vercel.app/" class="btn btn-primary web-btn">view</a>
   </div>
 </div>
 </div>
